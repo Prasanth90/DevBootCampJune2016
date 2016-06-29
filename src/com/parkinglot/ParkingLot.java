@@ -1,5 +1,6 @@
 package com.parkinglot;
 
+import com.parkinglot.exception.InvalidParkingLotTokenException;
 import com.parkinglot.exception.SlotNotAvailableException;
 
 import java.util.*;
@@ -7,11 +8,12 @@ import java.util.*;
 /**
  * Created by rajats on 6/28/16.
  */
-public class ParkingLot extends Observable{
-
+public class ParkingLot {
 
 
     private List<Object> issuedTokens = new LinkedList<>();
+    List<parkingLotObserver> fullListeners;
+    List<parkingLotObserver> spaceAvailableListenrs;
 
     private int capacity;
 
@@ -20,9 +22,11 @@ public class ParkingLot extends Observable{
     public ParkingLot(int capacity) {
 
         this.capacity = capacity;
+        this.spaceAvailableListenrs = new ArrayList<parkingLotObserver>();
+        this.fullListeners = new ArrayList<parkingLotObserver>();
     }
 
-    public Object park() throws SlotNotAvailableException {
+    public Object occupy() throws SlotNotAvailableException {
         if (issuedTokens.size() == capacity) {
 
             throw new SlotNotAvailableException(SLOT_UNAVAILABLE_EXCEPTION_MSG);
@@ -30,19 +34,38 @@ public class ParkingLot extends Observable{
             Object token = new Object();
             issuedTokens.add(token);
             if (issuedTokens.size() == capacity) {
-                setChanged();
-                notifyObservers("Parking lot is full");
+
+                notifyParkingFullObservers();
             }
             return token;
         }
     }
 
-    public boolean unPark(Object parkingToken) {
-        return issuedTokens.remove(parkingToken);
+    private void notifyParkingFullObservers() {
+        fullListeners.forEach(parkingLotObserver::updatedFull);
     }
 
-    @Override
-    public synchronized void addObserver(Observer o) {
-        super.addObserver(o);
+
+    public Object unOccupy(Object parkingToken) throws InvalidParkingLotTokenException {
+        if(issuedTokens.size()==capacity)
+            notifyParkingLotSpaceNowAvailableListeners();
+        if(!issuedTokens.remove(parkingToken))
+            throw new InvalidParkingLotTokenException("Token is not valid");
+        return new Object();
+    }
+
+    private void notifyParkingLotSpaceNowAvailableListeners() {
+        spaceAvailableListenrs.forEach(parkingLotObserver::updateBackToNotFull);
+
+    }
+
+
+
+    public void addParkingLotFullListener(parkingLotObserver listener) {
+        fullListeners.add(listener);
+    }
+
+    public void addParkingLotBackToHoldListener(parkingLotObserver listener) {
+        spaceAvailableListenrs.add(listener);
     }
 }
