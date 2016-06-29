@@ -89,7 +89,7 @@ public class ParkingLotTest {
         ParkingLot parkingLot = new ParkingLot(1);
         parkingLot.addObserver(parkingOwner);
         Object parkingToken = parkingLot.park();
-        verify(parkingOwner, times(1)).update(parkingLot,"Parking lot is full");
+        verify(parkingOwner, times(1)).update(parkingLot, "Parking lot is full");
     }
 
 
@@ -101,7 +101,7 @@ public class ParkingLotTest {
 
         Object parkingToken = parkingLot.park();
 
-        verify(parkingOwner, times(0)).update(parkingLot,"");
+        verify(parkingOwner, times(0)).update(parkingLot, "");
     }
 
     @Test
@@ -112,7 +112,7 @@ public class ParkingLotTest {
 
         Object parkingToken = parkingLot.park();
 
-        verify(airportSecurityPersonnel, times(1)).update(parkingLot,"Parking lot is full");
+        verify(airportSecurityPersonnel, times(1)).update(parkingLot, "Parking lot is full");
     }
 
     @Test
@@ -122,7 +122,7 @@ public class ParkingLotTest {
         parkingLot.addObserver(airpostSecurityPersonnel);
 
         Object parkingToken = parkingLot.park();
-        
-        verify(airpostSecurityPersonnel, times(0)).update(parkingLot,"");
+
+        verify(airpostSecurityPersonnel, times(0)).update(parkingLot, "");
     }
 }
