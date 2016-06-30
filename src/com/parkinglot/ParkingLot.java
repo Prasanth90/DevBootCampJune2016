@@ -68,4 +68,8 @@ public class ParkingLot {
     public void addParkingLotBackToHoldListener(parkingLotObserver listener) {
         spaceAvailableListenrs.add(listener);
     }
+
+    public int getCountOfAvailableSlotsInParkingLot() {
+       return capacity- this.issuedTokens.size();
+    }
 }

@@ -2,13 +2,13 @@ package com.parkinglot;
 
 import com.parkinglot.exception.InvalidParkingLotTokenException;
 import com.parkinglot.exception.SlotNotAvailableException;
-import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertNotNull;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
 
@@ -20,6 +20,21 @@ public class ParkingLotTest {
 
     @Rule
     public ExpectedException exception = ExpectedException.none();
+
+    @Test
+    public void shouldBeAbleToReturnTheCountOfOccupiedSlotsInParkingLotWhenAtLeastOneSlotIsOccupied() throws SlotNotAvailableException {
+        ParkingLot parkingLot=new ParkingLot(2);
+        Object parkingTokenA = parkingLot.occupy();
+        assertEquals(1,parkingLot.getCountOfAvailableSlotsInParkingLot());
+
+    }
+
+    @Test
+    public void shouldReturnTheCountOfOccupiedSlotsInParkingLotAsFullWhenNoSlotIsOccupied() throws SlotNotAvailableException {
+        ParkingLot parkingLot=new ParkingLot(2);
+        assertEquals(2,parkingLot.getCountOfAvailableSlotsInParkingLot());
+
+    }
 
     @Test
     public void shouldParkMyCarWhenSlotsAvailable() throws SlotNotAvailableException {
