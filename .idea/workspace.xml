@@ -2,6 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408e629c-56f3-4647-a1d5-f7e8a07fbfb4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/ParkingAttender.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/ParkingAttenderWhoAllocatesEqualSlotsInParingLot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/ParkingAttenderWhoAllocatesSomeParingLot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/ParkingLot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/exception/InvalidParkingLotTokenException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/exception/ParkingLotNotAvailabelException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/exception/SlotNotAvailableException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/parkinglot/parkingLotObserver.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/parkinglot/ParkingAttenderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/parkinglot/ParkingLotTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/jacoco/test.exec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/DevBootCampJune2016.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/META-INF/MTNMINDS.RSA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/jacocoagent.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/org/jacoco/agent/AgentJar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/classes/com.parkinglot.ParkingAttenderTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/classes/com.parkinglot.ParkingLotTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/js/report.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/reports/tests/packages/com.parkinglot.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/TEST-com.parkinglot.ParkingAttenderTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/test-results/TEST-com.parkinglot.ParkingLotTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/META-INF/MTNMINDS.SF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_1ddnif02itp8lnwh8r17e7qgb/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParkingLot.iws" />
@@ -32,7 +76,7 @@
       <file leaf-file-name="ParkingLotTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingLotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="333">
               <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,9 +88,13 @@
       <file leaf-file-name="ParkingAttender.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="328">
               <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,25 +102,17 @@
       <file leaf-file-name="ParkingAttenderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingAttenderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="127" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/reports/tests/index.html">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -84,9 +124,11 @@
       <file leaf-file-name="ParkingAttenderWhoAllocatesEqualSlotsInParingLot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesEqualSlotsInParingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="203">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,9 +136,11 @@
       <file leaf-file-name="ParkingAttenderWhoAllocatesSomeParingLot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesSomeParingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="339">
               <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +148,7 @@
       <file leaf-file-name="ParkingLotNotAvailabelException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/ParkingLotNotAvailabelException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="175">
               <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="e#196#197#0" expanded="true" />
@@ -117,7 +161,7 @@
       <file leaf-file-name="InvalidParkingLotTokenException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/InvalidParkingLotTokenException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="275">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#203#204#0" expanded="true" />
@@ -130,7 +174,7 @@
       <file leaf-file-name="ParkingLot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="267">
               <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -143,6 +187,16 @@
                 <element signature="e#2095#2096#0" expanded="true" />
                 <element signature="e#2151#2152#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parkingLotObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/parkinglot/parkingLotObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,11 +243,11 @@
         <option value="$PROJECT_DIR$/test/com/parkinglot/ParkingLotTest.java" />
         <option value="$PROJECT_DIR$/src/com/parkinglot/ParkingLotNotAvailabelException.java" />
         <option value="$PROJECT_DIR$/src/com/parkinglot/exception/ParkingLotNotAvailabelException.java" />
-        <option value="$PROJECT_DIR$/test/com/parkinglot/ParkingAttenderTest.java" />
         <option value="$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesSomeParingLot.java" />
         <option value="$PROJECT_DIR$/src/com/parkinglot/ParkingAttender.java" />
         <option value="$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesEqualSlotsInParingLot.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/test/com/parkinglot/ParkingAttenderTest.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -205,8 +259,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -233,65 +289,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DevBootCampJune2016" />
+              <option name="myItemId" value="DevBootCamp-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DevBootCampJune2016" />
+              <option name="myItemId" value="DevBootCamp-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DevBootCampJune2016" />
+              <option name="myItemId" value="DevBootCamp-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DevBootCampJune2016" />
+              <option name="myItemId" value="DevBootCamp-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DevBootCampJune2016" />
+              <option name="myItemId" value="DevBootCamp-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parkinglot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DevBootCampJune2016" />
+              <option name="myItemId" value="DevBootCamp-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DevBootCampJune2016" />
+              <option name="myItemId" value="DevBootCamp-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +367,7 @@
       <recent name="com.parkinglot" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParkingAttenderTest">
+  <component name="RunManager" selected="JUnit.All in ParkingLot">
     <configuration default="false" name="ParkingLotTest.shouldNotParkMyCarIfSpaceUnavailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -684,18 +736,13 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ParkingAttenderTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in ParkingLot" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingAttenderTest.ShouldUnParkCarWhenDriverGivingValidToken" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in ParkingLot" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingAttenderTest.ShouldUnParkCarWhenDriverGivingValidToken" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingAttenderTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingLotTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotTest.shouldNotParkMyCarIfSpaceUnavailable" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -714,6 +761,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_in_ParkingLot - 2016.06.30 at 10h 08m 10s.xml">
+      <configuration name="All in ParkingLot" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="All_in_ParkingLot - 2016.06.30 at 10h 17m 15s.xml">
       <configuration name="All in ParkingLot" configurationId="JUnit" />
     </history-entry>
@@ -723,11 +773,11 @@
     <history-entry file="All_in_ParkingLot - 2016.06.30 at 10h 25m 19s.xml">
       <configuration name="All in ParkingLot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingAttenderTest - 2016.06.30 at 08h 51m 36s.xml">
-      <configuration name="ParkingAttenderTest" configurationId="JUnit" />
+    <history-entry file="All_in_ParkingLot - 2016.06.30 at 12h 38m 21s.xml">
+      <configuration name="All in ParkingLot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingAttenderTest - 2016.06.30 at 08h 53m 09s.xml">
-      <configuration name="ParkingAttenderTest" configurationId="JUnit" />
+    <history-entry file="All_in_ParkingLot - 2016.06.30 at 12h 38m 36s.xml">
+      <configuration name="All in ParkingLot" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ParkingAttenderTest - 2016.06.30 at 08h 54m 53s.xml">
       <configuration name="ParkingAttenderTest" configurationId="JUnit" />
@@ -738,15 +788,12 @@
     <history-entry file="ParkingAttenderTest - 2016.06.30 at 09h 47m 07s.xml">
       <configuration name="ParkingAttenderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingAttenderTest - 2016.06.30 at 11h 31m 19s.xml">
-      <configuration name="ParkingAttenderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParkingAttenderTest_ShouldUnParkCarWhenDriverGivingValidToken - 2016.06.30 at 09h 50m 09s.xml">
       <configuration name="ParkingAttenderTest.ShouldUnParkCarWhenDriverGivingValidToken" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,11 +804,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3024619" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30272108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24236111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24270834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -797,12 +844,6 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/com/parkinglot/ParkingAttenderTest.java</url>
-          <line>128</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesSomeParingLot.java</url>
           <line>21</line>
           <properties />
@@ -832,96 +873,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingLotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingAttenderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesEqualSlotsInParingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesSomeParingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/ParkingLotNotAvailabelException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/InvalidParkingLotTokenException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1906#1907#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/parkingLotObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingLotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -930,7 +881,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/AirportSecurityPersonnel.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/AirportSecurityPersonnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -949,11 +907,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingOwner.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/SlotNotAvailableException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -966,18 +935,36 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar!/org/mockito/Mockito.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/Vector.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/Observable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingOwner.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/AirportSecurityPersonnel.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/parkinglot/AirportSecurityPersonnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/SlotNotAvailableException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/parkingLotObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="0">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
@@ -985,7 +972,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingLotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="333">
           <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -993,10 +980,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingOwnerTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingOwnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/InvalidParkingLotTokenException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="275">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#203#204#0" expanded="true" />
@@ -1007,7 +1001,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/exception/ParkingLotNotAvailabelException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="175">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="e#196#197#0" expanded="true" />
@@ -1018,7 +1012,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="267">
           <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1036,48 +1030,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesSomeParingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="339">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="328">
           <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/parkinglot/ParkingAttenderWhoAllocatesEqualSlotsInParingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="203">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/parkinglot/ParkingAttenderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="127" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/index.html">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
